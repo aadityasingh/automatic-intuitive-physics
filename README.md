@@ -1,5 +1,8 @@
 # automatic-intuitive-physics
-A behavioral paradigm and computational models to explore whether humans automatically engage intuitive physical reasoning. It makes use of loudness judgments under natural audiovisual stimulation.
+A behavioral paradigm and computational models to explore whether humans automatically engage intuitive physical reasoning. It makes use of loudness judgments under natural audiovisual stimulation. This work is done in collaboration with Ilker Yildirim of the MIT Computational Cognitive Science Group (PI: Joshua Tenenbaum). Since the actual repository is on my MIT Github, I've copied it over to consolidate my github. To follow more recent updates on this repo (in case I don't update it frequently), please check out: https://github.mit.edu/ilkery/automatic-intuitive-physics.
+
+## Current Project Report
+The most recent report/nicely formatted and explained doc is the file 9_66_report.pdf. This is an intermediate step in this project and is what I submitted as my final project. 
 
 ## Video/Audio preprocessing (pre-audio synth and dubbing):
 Videos should be of the form SphereOnWood.MOV and come with corresponding “high-quality” 3-channel audio SphereOnWood.wav. Note that videos/audios are not committed in the repo (as seen in the gitignore).
