@@ -1,0 +1,10 @@
+test*
+psiturk-example/
+*Videos*/
+.DS_Store
+*.wav
+*.MOV
+*.m~
+*.mp4
+*.jpg
+*.png

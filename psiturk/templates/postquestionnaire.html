@@ -1,0 +1,50 @@
+<div id="container-questionnaire">
+    <h1>Task Complete</h1>
+
+    <hr />
+
+    <p>You are finished!.</p>
+
+    <div class="instructions well">
+
+        <form id="postquiz" action="debrief" method="post">
+
+
+            <!-- beginning of a question -->
+            Did you notice anything strange about the trials? <br>
+            <textarea name="strategies" rows="4" cols="100" id="strategies" placeholder="Enter answer here"></textarea>
+            <!-- end of a question -->
+
+            <br>
+
+            <!-- beginning of a question -->
+            Did you form an expectation of how loud the sound would be before hearing it? <br>
+            <textarea name="notice" rows="4" cols="100" id="notice" placeholder="Enter answer here"></textarea>
+            <!-- end of a question -->
+
+            <br>
+            <!-- beginning of a question -->
+            Are there any other comments you would like to provide? <br>
+            <textarea name="comments" rows="4" cols="100" id="comments" placeholder="Enter answer here"></textarea>
+            <!-- end of a question -->
+        </form>
+    </div>
+
+    <hr />
+
+    <div class="instructionsnav">
+        <div class="row">
+            <div class="col-xs-2">
+            </div>
+            <div class="col-xs-7">
+            </div>
+            <div class="col-xs-3">
+                <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue">
+                    Continue <span class="glyphicon glyphicon-arrow-right"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+</div>

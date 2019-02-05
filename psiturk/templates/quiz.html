@@ -1,0 +1,68 @@
+<!--WRAPPER-->
+<div id="wrapper">
+
+    <!--LOGIN FORM-->
+    <div name="login-form" class="login-form">
+        <!--HEADER-->
+        <div class="header">
+        <!--TITLE--><h1>Comprehension Check</h1><!--END TITLE-->
+        <!--DESCRIPTION--><span></span><!-- END DESCRIPTION-->
+        </div>
+        <!--END HEADER-->
+
+        <div class="questionnaire">
+          <p id="toptext">
+            Before beginning the experiment, you must answer a few simple questions to ensure that the instructions are clear. If you do not answer all questions correctly, you will be returned to the start of the instructions.
+          <form id="prequiz" action="debrief" method="post">
+            <div class="question">
+              <p class="questiontext">
+              What are we asking you to determine in this task?
+              <select id="featureAttend" name="featureAttend">
+                <option value="noresp" SELECTED></option>
+            		<option value="material">The material of a surface</option>
+            		<option value="loudness">The loudness of an impact sound</option>
+            		<option value="mass">The mass of the falling obect</option>
+              </select>
+              </p>
+            </div>
+
+            <div class="question">
+              <p class="questiontext">
+		          Which of the following objects remains identical across all trials?
+              <select id="constantObj" name="constantObj">
+                <option value="noresp" SELECTED></option>
+                <option value="wood">Material of falling object</option>
+                <option value="surface">Material of ground surface</option>
+                <option value="neither">Both change</option>
+              </select>
+              </p>
+            </div>
+
+            <div class="question">
+              <p class="questiontext">
+              Which of the following is the correct order of hardness (softer to harder)
+              <select id="densOrder" name="densOrder">
+                <option value="noresp" SELECTED></option>
+                <option value="first">Wood < Foam < Ceramic</option>
+                <option value="second">Foam < Wood < Ceramic</option>
+                <option value="third">Foam < Ceramic < Wood</option>
+              </select>
+              </p>
+            </div>
+            
+
+
+          </form>
+          </p>
+
+        </div>
+        <!--END CONTENT-->
+        <!-- BUTTONS-->
+        <div id="centerdiv">
+          <!-- <button id="nextbutton" class="incenterdiv btn btn-success btn-lg" enabled>Continue</button> -->
+          <button type="button" id="continue" class="btn btn-warning btn-lg continue"> Continue </button>
+        </div>
+
+    </div> <!--END LOGIN FORM-->
+</div>
+<!-- END WRAPPER -->
